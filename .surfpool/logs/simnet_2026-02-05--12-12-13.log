@@ -1,0 +1,24 @@
+[2026-02-05--12-12-14 INFO actix_server::builder] starting 5 workers
+[2026-02-05--12-12-14 INFO actix_server::server] Tokio runtime found; starting in existing Tokio runtime
+[2026-02-05--12-12-14 INFO actix_server::server] starting service: "actix-web-service-127.0.0.1:18488", workers: 5, listening on: 127.0.0.1:18488
+[2026-02-05--12-12-14 INFO parity_ws] Listening for new connections on 127.0.0.1:8900.
+[2026-02-05--12-12-16 INFO txtx::svm::deploy_program] [Recovery Instructions] - An ephemeral authority account will be created and funded to write to the buffer account.
+[2026-02-05--12-12-16 INFO txtx::svm::deploy_program] [Recovery Instructions] - Please save the following information in case the deployment fails and the account needs to be recovered:
+[2026-02-05--12-12-16 INFO txtx::svm::deploy_program] [Recovery Instructions] - Ephemeral authority public key: 22NqGcs6a6QbxsqJbPUxTBWMuqVbre3fioVZVqEffzdt
+[2026-02-05--12-12-16 INFO txtx::svm::deploy_program] [Recovery Instructions] - Ephemeral authority secret key: [205, 168, 155, 191, 101, 18, 174, 199, 246, 221, 130, 8, 58, 63, 32, 186, 92, 186, 105, 250, 69, 7, 20, 153, 104, 140, 43, 1, 211, 180, 36, 177, 15, 53, 244, 25, 150, 178, 60, 114, 199, 208, 225, 113, 166, 117, 140, 130, 252, 161, 153, 123, 158, 136, 29, 205, 112, 190, 163, 138, 102, 171, 10, 207]
+[2026-02-05--12-12-16 INFO txtx::svm::deploy_program] Account Created - Ephemeral authority account created and funded to write to buffer
+[2026-02-05--12-12-16 INFO txtx::svm::deploy_program] [Recovery Instructions] - Creating program buffer account at pubkey 2whf5xaNbTtK3nyBbQwC7DGjChLaPJpwC7joupYHjiEi
+[2026-02-05--12-12-16 INFO txtx::svm::deploy_program] Account Created - Program buffer account created
+[2026-02-05--12-12-24 INFO parity_ws::io] Accepted a new tcp connection from 127.0.0.1:55512.
+[2026-02-05--12-12-27 INFO parity_ws::io] Accepted a new tcp connection from 127.0.0.1:55526.
+[2026-02-05--12-12-28 INFO txtx::svm::deploy_program] Buffer Ready - Writing to buffer account is complete
+[2026-02-05--12-12-29 INFO txtx::svm::deploy_program] Program Created - Program CdTLU1EJNvNdahMDFRjdrJpbKQCKqgdAFYuBQgGPWHU6 has been deployed
+[2026-02-05--12-12-30 INFO txtx::svm::deploy_program] Complete - Ephemeral authority account closed and leftover funds returned to payer
+[2026-02-05--12-13-11 INFO parity_ws::io] Accepted a new tcp connection from 127.0.0.1:51168.
+[2026-02-05--12-13-14 INFO parity_ws::io] Accepted a new tcp connection from 127.0.0.1:41726.
+[2026-02-05--12-17-24 INFO actix_server::worker] shutting down idle worker
+[2026-02-05--12-17-24 INFO actix_server::worker] shutting down idle worker
+[2026-02-05--12-17-24 INFO actix_server::worker] shutting down idle worker
+[2026-02-05--12-17-24 INFO actix_server::worker] shutting down idle worker
+[2026-02-05--12-17-24 INFO actix_server::accept] accept thread stopped
+[2026-02-05--12-17-24 INFO actix_server::worker] shutting down idle worker

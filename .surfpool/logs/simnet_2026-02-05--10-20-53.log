@@ -1,0 +1,24 @@
+[2026-02-05--10-20-54 INFO actix_server::builder] starting 5 workers
+[2026-02-05--10-20-54 INFO actix_server::server] Tokio runtime found; starting in existing Tokio runtime
+[2026-02-05--10-20-54 INFO actix_server::server] starting service: "actix-web-service-127.0.0.1:18488", workers: 5, listening on: 127.0.0.1:18488
+[2026-02-05--10-20-54 INFO parity_ws] Listening for new connections on 127.0.0.1:8900.
+[2026-02-05--10-21-26 INFO parity_ws::io] Accepted a new tcp connection from 127.0.0.1:36500.
+[2026-02-05--10-21-29 INFO parity_ws::io] Accepted a new tcp connection from 127.0.0.1:36510.
+[2026-02-05--10-24-08 INFO parity_ws::io] Accepted a new tcp connection from 127.0.0.1:38202.
+[2026-02-05--10-24-10 INFO parity_ws::io] Accepted a new tcp connection from 127.0.0.1:38210.
+[2026-02-05--10-28-40 INFO parity_ws::io] Accepted a new tcp connection from 127.0.0.1:33146.
+[2026-02-05--10-28-43 INFO parity_ws::io] Accepted a new tcp connection from 127.0.0.1:33162.
+[2026-02-05--10-41-20 INFO parity_ws::io] Accepted a new tcp connection from 127.0.0.1:57066.
+[2026-02-05--10-41-23 INFO parity_ws::io] Accepted a new tcp connection from 127.0.0.1:57068.
+[2026-02-05--10-41-23 ERROR litesvm] Program account 9FVkz5L9LZix4zXYmqJLzKBwRpm9aJ539J26UsZSrLWN is not executable.
+[2026-02-05--10-41-23 ERROR litesvm] Program account 9FVkz5L9LZix4zXYmqJLzKBwRpm9aJ539J26UsZSrLWN is not executable.
+[2026-02-05--10-42-37 INFO parity_ws::io] Accepted a new tcp connection from 127.0.0.1:48240.
+[2026-02-05--10-42-40 INFO parity_ws::io] Accepted a new tcp connection from 127.0.0.1:48250.
+[2026-02-05--10-42-40 ERROR litesvm] Program account 9FVkz5L9LZix4zXYmqJLzKBwRpm9aJ539J26UsZSrLWN is not executable.
+[2026-02-05--10-42-40 ERROR litesvm] Program account 9FVkz5L9LZix4zXYmqJLzKBwRpm9aJ539J26UsZSrLWN is not executable.
+[2026-02-05--10-53-58 INFO actix_server::accept] accept thread stopped
+[2026-02-05--10-53-58 INFO actix_server::worker] shutting down idle worker
+[2026-02-05--10-53-58 INFO actix_server::worker] shutting down idle worker
+[2026-02-05--10-53-58 INFO actix_server::worker] shutting down idle worker
+[2026-02-05--10-53-58 INFO actix_server::worker] shutting down idle worker
+[2026-02-05--10-53-58 INFO actix_server::worker] shutting down idle worker
