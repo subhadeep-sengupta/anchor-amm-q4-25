@@ -85,7 +85,7 @@ impl<'info> Deposit<'info> {
                     amount,
                     6,
                 )
-                .unwrap();
+                .map_err(|_| AmmError::InvalidAmount)?;
                 (amounts.x, amounts.y)
             }
         };

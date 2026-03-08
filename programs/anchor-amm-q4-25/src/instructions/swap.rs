@@ -37,6 +37,14 @@ pub struct Swap<'info> {
     pub config: Account<'info, Config>,
 
     #[account(
+        mut,
+        seeds = [b"lp", config.key().as_ref()],
+        bump,
+        mint::decimals = 6,
+        mint::authority = config,
+    )]
+    pub mint_lp: Account<'info, Mint>,
+    #[account(
         init_if_needed,
         payer = user,
         associated_token::mint = mint_x,
@@ -67,10 +75,10 @@ impl<'info> Swap<'info> {
             self.vault_x.amount,
             self.vault_y.amount,
             self.vault_x.amount,
-            self.config.fee,
-            None,
+            self.mint_lp.supply as u16,
+            Some(self.mint_lp.decimals),
         )
-        .unwrap();
+        .map_err(|_| AmmError::CurveError)?;
 
         let pair = match is_x {
             true => LiquidityPair::X,
